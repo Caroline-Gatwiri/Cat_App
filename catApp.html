@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset=""UTF-8>
+    <title>Cat App</title>
+    <h1>Cat Photos App</h1>
+  </head>
+<main>
+ <body>
+    <section>
+      <h2>Cat Photos</h2>
+      <p>Get a variety of <a href="https://www.pexels.com/search/cat/" alt="cat pictures" target="_blank">cat photos</a> from our gallry</p>
+      <!--target to blank is added to ensure that the link opens to a new tab-->
+      <a href="https://www.pexels.com/search/cat/" target="_blank"><img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="200px" alt ="cute white cat"></a>
+    </section>
+    <section>
+    <h2>Foods cats love:</h2>
+    <ul>
+      <li>Lasagna</li>
+      <li>Cooked Fish</li>
+      <li>Chicken</li>
+      <li>Pizza</li>
+    </ul>
+    <figure>
+    <img src="https://media.istockphoto.com/id/938742222/photo/cheesy-pepperoni-pizza.jpg?s=1024x1024&w=is&k=20&c=OKXH55QwDa6L3cY2pTTz1DKVT2clqW3zcVaJVaU-N_U=" height="300px">
+    <figcaption>Cats do <em>love</em> their pizza</figcaption>
+    </figure>
+    </section>
+    <section>
+    <h2>Things cats hate:</h2>
+    <ol>
+      <li>Loud noises</li>
+      <li>Showers</li>
+      <li>Thunder</li>
+      <li>Dirty litter box</li>
+    </ol>
+    <figure>
+    <img src="https://www.acatclinic.us/wp-content/uploads/2019/03/Cat-with-stinky-litter-pan-Pixabay-cartoons-1998573_1920-with-credit-2-1024x734.jpg" height="200px">
+    <figcaption>Dirty litter is a <em>no go zone</em></figcaption>
+    </section>
+    <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+        Name<input type="Text" placeholder="Cat's Name" required>
+        <fieldset>
+        <legend>What's the cat's gender?</legend>
+        <label><input type="radio" id="male" name="male-female">Male</label>
+        <label><input type="radio" id="female" name="male-female">Female</label>
+        </fieldset>
+        <fieldset>
+          <legend>Cat's Personality?</legend>
+          <input type="checkbox" id="impulsiveness" value="impulsiveness" name="personality"><label for="impulsiveness">Impulsiveness</label>
+          <input type="checkbox" id="loving" value="loving" name="personality"><label for="loving">Loving</label>
+          <label><input type="checkbox" id="agreeableness" value="agreeableness" name="personality">Agreeableness</label>
+          <label><input type="checkbox" id="neuroticism" value="neuroticism" name="personality"> Neuroticism</label>
+        </fieldset>
+        <button type="submit">Submit</button>
+        </form>
+    </section>
+ </body>
+</main>
+<footer><p>No copyright</p></footer>
+</html>
